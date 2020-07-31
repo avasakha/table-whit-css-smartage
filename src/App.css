@@ -1,0 +1,21 @@
+button{
+  margin-left: 300px;
+  width:50px;
+  margin-top: 30px;
+}
+table,th,td{
+  border:1px solid gray
+}
+.last div:not(:last-of-type) {
+border-bottom: 1px solid blue;
+}
+
+.last div:first-of-type::after{
+  content:"(this is first title)";
+  color:green;
+  font-weight: bold;
+  
+}
+td:nth-child(1){
+  text-align: center;
+}
